@@ -71,6 +71,8 @@
 \DeclareMathOperator{\RM}{RM}
 \DeclareMathOperator{\chara}{char}
 \DeclareMathOperator{\tp}{tp}
+\DeclareMathOperator{\cof}{cof}
+
 \DeclareMathOperator{\Aut}{Aut}
 \usepackage{xepersian}
 \linespread{1.5}
@@ -8287,6 +8289,7 @@ $\omega$
 }
 \]
 \end{proof}
+\pagebreak 
 \section{جلسه‌ی بیست و دوم}
 همان طور که دانسته‌ایم،
 وقتی
@@ -8570,12 +8573,10 @@ $\psi_i\simeq \phi_j$.
 	اگر 
 	$T$
 	یک تئوریِ
-	$\omega$
-	پایدار باشد، آنگاه برای هر
+	$\omega$پایدار باشد، آنگاه برای هر
 $\kappa\geq \omega$
 نیز
-$\kappa$
-پایدار است.
+$\kappa$پایدار است.
 	\end{thm}
 \begin{proof}
 	فرض کنید
@@ -8589,8 +8590,7 @@ $\kappa$
 	$p(x)\in S_1(M)$
 	را در نظر بگیرید.
 	بنا بر آنچه در جلسات قبل ثابت کرده‌ایم، هر تئوریِ
-	$\omega$
-	پایدار، کاملاً متعالی است.  پس
+	$\omega$پایدار، کاملاً متعالی است.  پس
 $\alpha\in Ord$
 موجود است به طوری که
 	$\RM(p)=\alpha<\infty$.
@@ -8618,7 +8618,7 @@ $\psi\in p$
 \]
 و
 \[
-d\leq \deg (\phi\wedge \psi)\leq d
+d\leq \deg (\phi\wedge \psi)\leq d,
 \]
 پس
 $\RM(\phi\wedge\psi)=\alpha$
@@ -8633,7 +8633,7 @@ $\deg (\phi\wedge \psi)=d$.
 $\RM(\phi\wedge\neg \psi)=\alpha$
 آنگاه از آنجا که 
 $\phi\wedge \psi,\phi\wedge\neg \psi$
-افزاری برای
+افرازی برای 
 $\phi$
 است، درجه‌ی مُرلیِ
 $\phi$
@@ -8663,7 +8663,7 @@ $\phi$
 $M$
 کافی است تعداد تایپهای روی زیرمجموعه‌های متناهی از
 $M$
-و مرتبه‌ و درجه‌ی مُرلی آنها را بدانیم. در واقع اگر
+و مرتبه‌ و درجه‌ی مُرلی آنها را بدانیم.  در واقع اگر
 $p,q\in S_1(M)$
 و 
 $A\subseteq M$
@@ -8717,6 +8717,16 @@ $\kappa$
 $\kappa$
 است. 
 	\end{proof}
+\begin{framed}
+\textbf{خلاصه‌ی اثبات بالا:}
+از آن جا که تئوری مورد نظر
+بسیار متعالی است، همه‌‌ی تایپها
+در آن
+ دارای مرتبه‌ی مُرلیند. هر تایپی توسط مرتبه‌ و درجه‌ی مُرلیِ فرمولی در آن
+تعیین می‌شود. مرتبه‌ و درجه‌ی مرلی این فرمول، بسته‌ به بخشی متناهی از تایپ است. تعداد حالات ممکن، کمتر از
+$\kappa$
+است.
+\end{framed}
 در خلال اثبات بالا به نکته‌ی زیر اشاره کردیم.
 \begin{moshahede}
 	گیریم
@@ -8745,13 +8755,13 @@ $p$
 	فرض  کنید که
 	$T$
 یک تئوریِ
-$\omega$
-پایدار باشد، 
+$\omega$پایدار 
+باشد، 
 $\kappa$
 کاردینالی باشد دلخواه  و
 $\lambda\leq \kappa$
 کاردینالی منتظم باشد (یعنی آنگونه که 
-$cof(\lambda)=\lambda$.)
+$\cof(\lambda)=\lambda$.)
 آنگاه تئوریِ
 $T$
 دارای مدلی 
@@ -8811,10 +8821,10 @@ $\lambda$
 	$T$
 	یک
 	تئوریِِ
-	$\kappa$
-	جازم  باشد. آنگاه یگانه‌ی مدلِ
+	$\kappa$	جازم
+	  باشد. آنگاه یگانه‌ی مدلِ
 	$T$
-	(به هنگ ایزومرفیسم) از اندازه‌ی
+	(به پیمانه ایزومرفیسم) از اندازه‌ی
 $\kappa$،
 اشباع است.
 	\end{thm}
@@ -8822,12 +8832,14 @@ $\kappa$،
 	اگر
 	$\kappa$
 	منتظم باشد، آنگاه از آنجا که هر تئوریِ جازم در یک کاردینالِ ناشمارا،
-	$\omega$
-	پایدار است، بنا به قضیه‌ی قبل تئوری مورد نظر دارای مدلی اشباع با اندازه‌ی
+	$\omega$	پایدار 
+	است، بنا به قضیه‌ی قبل تئوری مورد نظر دارای مدلی اشباع با اندازه‌ی
 	$\kappa$
 	است. اگر
 	$\kappa$
-	تکین باشد، آنگاه برای هر 
+	تکین 
+	\LTRfootnote{singular}
+	باشد، آنگاه برای هر 
 	$\lambda<\kappa$
 	کاردینالِ
 	$\lambda^+<\kappa$
@@ -8841,7 +8853,10 @@ $\kappa$،
 	$\lambda'<\kappa$
 نیز
 $\lambda'^+$
-اشباع است. پس این مدل، اشباع است. 
+اشباع است. 
+پس این مدل، اشباع است (و اگر
+$\kappa$
+منتظم می‌بود تئوری مورد نظر بنا به قضیه‌ی قبل اشباع می‌بود).
 	\end{proof}
 \pagebreak
 \section{جلسه‌ی بیست و چهارم}
@@ -8861,15 +8876,14 @@ $\lambda'^+$
 	نشاندنی مقدماتی مانند
 	$f:\mathfrak{M}\to \mathfrak{N}$
 	موجود باشد. بنا به کاربردی از لون‌هایم‌اسکولم، همواره داریم
-	$|M|\leq \|T\|:=|T|+|L|$.
+	\mbox{$|M|\leq \|T\|:=|T|+|L|$}.
 	مدلِ
 	$\mathfrak{M}$
 	را اتمیک می‌خوانیم هرگاه
 	$\tp(c_1,\ldots,c_n)$
 	برای هر
-
 	$c_1,\ldots,c_n\in M$
-ایزوله باشد. اگر زبان مورد نظر شمارا باشد، آنگاه هر مدل اول اتمیک است. زیرا، هر تایپِ غیرایزوله، بنا به قضیه‌ی حذف تایپ (که آن هم در زبانهای شمارابرقرار است) در توسیعی مقدماتی حذف می‌شود، پس در مدل اول نیز باید حذف شود.	
+ایزوله باشد. اگر زبان مورد نظر شمارا باشد، آنگاه هر مدل اول اتمیک است؛ زیرا، هر تایپِ غیرایزوله، بنا به قضیه‌ی حذف تایپ (که آن هم در زبانهای شمارا برقرار است) در توسیعی مقدماتی حذف می‌شود، پس در مدل اول نیز باید حذف شود.	
 	\end{yad}
 \begin{soal}
 	اگر
@@ -8898,7 +8912,9 @@ $\omega$پایدار
 	$M$
 	روی مجموعه‌ی
 	$A$
-	ساخته‌شدنی است هرگاه دنباله‌ی
+	ساخته‌شدنی 
+	\LTRfootnote{constructible}
+	است هرگاه دنباله‌ای چون
 	$(b_\alpha)_{\alpha<\gamma}$
 	چنان موجود باشد که
 	\begin{enumerate}
@@ -8914,14 +8930,118 @@ $\omega$پایدار
 		ایزوله باشد، که منظور از
 	$b_{<\alpha}$
 	مجموعه‌ی
-	$\{b_i|i<\alpha\}$
+		\mbox{$\{b_i|i<\alpha\}$}
 	است. 
 	\end{enumerate}
 	\end{defn}
 \begin{tam}
-	\end{tam}
-	
-
+اگر
+$\mathfrak{M}$
+روی
+$A$
+ساخته‌شدنی باشد، نشان دهید که آنگاه 
+\begin{enumerate}
+\item 
+$\mathfrak{M}$
+مدلی اول برای تئوریِ
+$\Th(\mathfrak{M},a)_{a\in A}$
+است.
+\item 
+$\mathfrak{M}$
+مدلی اتمیک برای تئوریِ
+$\Th(\mathfrak{M},a)_{a\in A}$
+است (از لم زیر استفاده کنید).
+\end{enumerate}
+\end{tam}
+برای حل قسمت دوم تمرین بالا، به لم زیر نیاز خواهید داشت:
+\begin{lem}
+اگر
+$\tp(a/A)$
+و
+$\tp(b/Aa)$
+هر دو ایزوله باشند، آنگاه
+$\tp(ab/A)$
+نیز ایزوله است. 
+\end{lem}
+	\begin{proof}
+	فرض کنید
+$\tp(a/A)$
+توسط
+$\phi(x)$
+و 
+$\tp(b/Aa)$
+توسط
+$\psi(y,a)$
+ایزوله شده باشند. ادعا می‌کنیم که در این صورت
+$\tp(ab/A)$
+توسط فرمولِ
+$\phi(x)\wedge\psi(y,x)$
+ایزوله می‌شود.
+\par
+کافی است نشان دهیم که فرمول یادشده تایپْ ایزوله می‌کند. برای این منظور باید نشان دهیم که برای هر فرمولِ داده شده‌ی
+$\xi(x,y)$
+فقط یکی از موارد زیر می‌تواند رخ دهد:
+\begin{align*}
+& T\models \exists x,y \quad \xi(x,y)\wedge \phi(x)\wedge\psi(y,x).
+\\
+& T \models \exists x,y \neg \xi(x,y)\wedge \phi(x)\wedge \psi(y,x).
+\end{align*}
+	به برهان خلف فرض کنیم هر دوی آنها رخ داده باشند. در آن صورت فرمولِ
+	$\phi(x)$
+	هم با
+	$\exists y(\xi(x,y)\wedge \psi(y,x))$
+	سازگار است و هم با
+	$\exists y(\neg \xi(x,y)\wedge \psi(y,x))$.
+	از آنجا که فرمولِ
+	$\phi(x)$
+	تایپْ‌ایزوله می‌کند داریم
+	\begin{align*}
+	& T\models \phi(x)\to \exists y\quad
+(\xi(x,y)\wedge \psi(y,x))\\
+	& T\models \phi(x)\to  
+	\exists y\quad (\neg \xi(x,y)\wedge \psi(y,x)).
+	\end{align*}
+	عبارات بالا برای 
+	$x=a$
+	هم برقرارند؛ یعنی
+		\begin{align*}
+	& T\models \phi(a)\to \exists y\quad
+(\xi(a,y)\wedge \psi(y,a))\\
+	& T\models \phi(a)\to  
+	\exists y\quad (\neg \xi(a,y)\wedge \psi(y,a)).
+	\end{align*}
+	عبارات سمت راست بالا، ناقضِ‌ اینند که
+	$\psi(y,a)$
+	تایپْ ایزوله می‌کند.
+	\end{proof}
+\begin{tam}
+در تئوریِ
+$ACF_0$
+نشان دهید که 
+$\mathbb{Q}^{alg}$، 
+یعنی بستارِ جبری اعداد گویا، روی
+$\mathbb{Q}$
+ساخته‌شدنی است.
+\end{tam}
+\begin{tam}
+مدلهای ساخته‌شدنی را در تئوریهای روابط هم‌ارزی تحلیل کنید. 
+\end{tam}
+در جلسه‌ی بعد قضیه‌ی زیر را ثابت خواهیم کرد.
+تئوریِ مورد نظر همچنان
+$\omega$پایدار
+و شمارا است. 
+\begin{thm}
+فرض کنید
+$ \mathfrak{N}\models T$
+و
+$A\subseteq N$.
+آنگاه 
+مدلی مانند
+$\mathfrak{M}\prec \mathfrak{N}$
+ساخته‌شدنی روی
+$A$
+موجود است. 
+\end{thm}
 \pagebreak 
 \section{	جلسه‌ی بیست و پنجم}
 \begin{thm}
@@ -9019,32 +9139,32 @@ $A$
 چنان موجود است به طوری که
 $\Th(\mathfrak{N},a)_{a\in A}\models \exists x\quad (\phi(x)\wedge \neg \psi(x))$
 و
-$\Th(\mathfrak{N},a)_{a\in A}\models \exists x\quad (\phi(x)\wedge \psi(x))$.
+\mbox{$\Th(\mathfrak{N},a)_{a\in A}\models \exists x\quad (\phi(x)\wedge \psi(x))$}.
 پس
-$\RM(\phi\wedge \psi)=\RM(\phi\wedge \neg \psi)=\alpha$
-و
-$\deg(\phi\wedge \psi)=\deg (\phi\wedge \neg \psi)=d$؛
-اما 
-از آنجا که 
+فرمولهای
 $\phi\wedge\psi$
 و
 $\phi\wedge\neg \psi$
 هر دو در 
 $(*)$
-صادقند، 
+صدق می‌کنند.
+از طرفی
+\mbox{$\RM(\phi\wedge \psi)=\RM(\phi\wedge \neg \psi)=\alpha$}
+و
+$\deg(\phi\wedge \psi)=\deg (\phi\wedge \neg \psi)=d$؛
+و
 این ناقضِ
 $\deg \phi=d$
 است. 
 \par 
-حال که بنا به ادعا، فرمولِ
-$\phi(x)$
-روی
-$A$
-کامل است، فرض کنید
+ فرض کنید
 $b_0\in M$
 چنان باشد که
 \mbox{$\mathfrak{N}\models \phi(b_0)$}.
-آنگاه
+بنا به کامل بودنِ‌فرمولِ
+$\phi(x)$
+روی
+$A$،
 $\tp(b_0/A)$
 ایزوله است. حال زیرساخت تولید شده توسط
 $A$
@@ -9161,7 +9281,7 @@ $\psi(x)$
 در تایپِ
 $a_0$
 قرار می‌گیرد اگروتنهااگر
-$(\RM,deg)\psi\wedge\phi=(\alpha,d)$.
+$(\RM,\deg)\psi\wedge\phi=(\alpha,d)$.
 \end{claim}
 فرض کنیم که غیرِ این صورت باشد، یعنی برای هر
 $a\in M$
@@ -9192,7 +9312,7 @@ $\aleph_0+|A|=|A|$
 است.
 پس از آن جا که همه‌ی آنها زیرمجموعه‌ی
 $\phi$
-هستند، پس حداقل یکی از آنها دارای اندازه‌ی بیش
+هستند،  حداقل یکی از آنها دارای اندازه‌ی بیش
 از
 $\lambda$
 است. 
@@ -9202,7 +9322,7 @@ $\psi$
 دارای بیش از
 $\lambda$
 جواب است و 
-\mbox{$(\RM,\deg \psi)<(\alpha,d)$}، 
+\mbox{$(\RM,\deg) \psi<(\alpha,d)$}، 
 که این ناقضِ
 نحوه‌ی انتخابِ
 $\phi$
@@ -9243,11 +9363,11 @@ $\psi\in \tp(a_i/A)$
 و
 $\neg \psi\in \tp(a_0/A)$
 آنگاه 
-$(\RM,deg)\phi \wedge\neg \psi =(\alpha,d)$.
+$(\RM,\deg)\phi \wedge\neg \psi =(\alpha,d)$.
 از طرفی از آنجا که 
 $\psi\in \tp(a_i/a_0\ldots a_{i-1})$
 بنا به روش ساخت دنباله‌ داریم
-$(\RM,deg) \phi\wedge\psi =(\alpha,d)$.
+$(\RM,\deg) \phi\wedge\psi =(\alpha,d)$.
 این دو
 ناقضِ
 $(\RM,\deg)\phi=(\alpha,d)$
